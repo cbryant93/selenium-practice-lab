@@ -107,7 +107,7 @@ class SeleniumQATools
      all_options.each do |option|
        puts "Value is: " + option.attribute("value")
        option.click
-     end
+  end
 
   end
 
