@@ -105,8 +105,8 @@ class SeleniumQATools
     select = @chrome_driver.find_element(:id, COMMANDS)
      all_options = select.find_elements(:tag_name, "option")
      all_options.each do |option|
-       puts "Value is: " + option.attribute("value")
-       option.click
+     puts "Value is: " + option.attribute("value")
+     option.click
   end
 
   end
@@ -119,18 +119,18 @@ end
 
 x = SeleniumQATools.new
 x.visit_practice_form
-# x.input_first_name("Christian")
-# x.input_first_name_text
-# x.input_last_name("Bryant")
-# x.input_last_name_text
-# x.input_sex("sex-1") # male: sex-0 female: sex-1
-# x.input_year(rand(1..7).to_i.to_s)
-# x.input_date("01/01/2000")
-# x.get_date
-# x.input_profession(rand(0..1).to_i.to_s)
-# x.download_link
-# x.input_tool(rand(1..3).to_i.to_s)
-# x.input_continent
-# x.input_commands
-# x.submit_form
+x.input_first_name("Christian")
+x.input_first_name_text
+x.input_last_name("Bryant")
+x.input_last_name_text
+x.input_sex("sex-1") # male: sex-0 female: sex-1
+x.input_year(rand(1..7).to_i.to_s)
+x.input_date("01/01/2000")
+x.get_date
+x.input_profession(rand(0..1).to_i.to_s)
+x.download_link
+x.input_tool(rand(1..3).to_i.to_s)
+x.input_continent
+x.input_commands
+x.submit_form
 sleep 6
