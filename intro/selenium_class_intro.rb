@@ -5,7 +5,7 @@ class SeleniumQATools
   PRACTICE_FORM_URL = 'http://toolsqa.com/automation-practice-form/'
   FIRST_NAME = 'firstname'
   LAST_NAME = 'lastname'
-  SEX = 'sex-0'
+  SEX = 'sex-'
   EXP = 'exp-'
   DATE = 'datepicker'
   PROFESSION = 'profession-'
